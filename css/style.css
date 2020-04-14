@@ -62,10 +62,11 @@ h3{
 /*Reusable Components*/
 /*------------------------------------------*/
 
-/* Modify the backgorund color */ 
-.navbar-custom { 
+/* Modify the backgorund color */
+.navbar-custom {
 	background-color: #008080;
-} 
+	justify-content: normal;
+}
 
 .navbar-custom .nav-link{
 	color: white;
@@ -103,7 +104,7 @@ h3{
 }
 
 .btn-full{
-	background-color: #008080;
+	background-color: #00808050;
 	border: 1px solid #006666;
 }
 
@@ -248,7 +249,7 @@ cite img{
 	color: white;
 	margin-bottom: 0px;
 	background-color: #35424a;
-	padding-top: 20px; 
+	padding-top: 20px;
 }
 .newsletter h3{
 	float: left;
@@ -314,13 +315,17 @@ cite img{
 
 #featured .box img{
 	width: 300px;
-	height: 400px;
+	height: 80%;
+	max-height: 100%;
+	max-width: 95%;
 
 }
 #featured img:hover{
 	width: 330px;
-	height: 400px;
-} 
+	height: 80%;
+	max-width: 100%;
+	max-height: 100%;
+}
 
 /*------------------------------------------*/
 /*Prasun2, Biographies*/
