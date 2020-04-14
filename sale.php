@@ -2,6 +2,7 @@
   include 'all_arrays.php';
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -56,6 +57,11 @@
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>

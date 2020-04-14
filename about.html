@@ -1,4 +1,5 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
 <title>WMU Bookstore</title>
@@ -8,68 +9,75 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="midterm.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
+  <header class ="header-section">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+        
+        <a class="navbar-brand" href="index.html"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Prasun1.html">Novels<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Prasun2.html">Biographies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Sell Your Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sale.php">Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Store Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
 
-  <header class="header-section">
-    <div class="container">
-      <div class="row">
-
-        <a href="index.html" class="site-logo">
-          <img src="img/book.jpg" alt="WMU Bookstore Logo">
-        </a>
-
-        <div class="search_form">
-        <form class="header-search-form">
-            <input type="text" placeholder="Search on WMU Bookstore...."/>
-            
-          </form>
-        </div>
-
-        <div class="user-panel">
-          <span class="glyphicon glyphicon-user"></span>
-          <a href="#">Sign In or Create Account</a>
-        </div>
-
-        <div class="cart">
-          <span class="glyphicon glyphicon-shopping-cart"></span>
-            <a href="Prasun3.html">Cart</a>
-        </div>
-
-        </div>
-
-    <nav class="navbar navbar-inverse">
-  <ul class="nav navbar-nav">
-    <li><a href="Prasun1.html">Novels</a></li>
-    <li><a href="Prasun2.html">Biographies</a></li>
-    <li><a href="sell.html">Sell Your Book</a></li>
-    <li><a href="sale.html">Sale</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="hours.html">Store Hours</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </div>
-  </ul>
-</nav>
-</div>
-</header>
-
-
-<section class="sell_main">
+<section class="about_us">
   <h2>About Us</h2>
-  <article class= "sale_jumbo" class="p-4 p-md-5">
+
+  <article class= "sale_jumbo">
    <div class="jumbotron">
     <div class="row">
-      <div class="col-md-3">
+      <div class="span-1-of-2">
         <figure>
-          <img src="img/wmu_bookstore.jpg">
+          <img src="img/waldo.jpg">
         </figure>
       </div>
 
-      <div class="col-md-5">
-        <h3><b>WMU Bookstore</b></h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <div class="span-1-of-2">
+        <h3><b>Western Michigan University Bookstore</b></h3>
+        <p>Western Michigan University aims to ease student's search for their course materials at affordable prices. We have been providing new as well as used hardcopy and digital textbooks to students of all years here at Western. We also provide the option of renting out books at almost half the price of a new text book. Further, Western students are provided with student's discounts so that concern for expense doesn't appear become concern for education. Happy Studying!
         </p>
       </div>
 
@@ -77,39 +85,30 @@
   </div>
 </article>
 
- <article class= "sale_jumbo" class="p-4 p-md-5">
-   <div class="jumbotron">
-    <div class="card_jumbo">
+
+<section class="employees">
     <div class="row">
-      <div class="card">
-        <div class="col-md-4">
-        <img src="img/avatar.png" alt="Avatar" >
-    <div class="container">
-    <h4><b>Prashan Thapa</b></h4> 
-    <p>Manager</p> 
-  </div>
-</div>
-</div>
+      <h2>Meet the Team</h2>
+    </div>
+    <div class="row biocontainer">
+      <div class="span-1-of-3 bio">
+        <img src="img/prashan.jpg">
+        <p>Prashan Thapa</p>
+        <p>Director</p>
+      </div>
+      <div class="span-1-of-3 bio">
+        <img src="img/face2.jpg">
+        <p>Prasun Pahadi</p>
+        <p>Head of Accountant</p>
+      </div>
+      <div class="span-1-of-3 bio">
+        <img src="img/face3.jpg">
+        <p>Simar Singh</p>
+        <p>Head of Sales</p>
+      </div>
+    </div>
+  </section>
 
- <div class="card">
-        <div class="col-md-4">
-        <img src="img/simar.jpg" alt="Avatar" >
-    <div class="container">
-    <h4><b>Simar Singh</b></h4> 
-    <p>Designer</p> 
-  </div>
-</div>
-</div>
-
- <div class="card">
-        <div class="col-md-4">
-        <img src="img/prasun.jpg" alt="Avatar" >
-    <div class="container">
-    <h4><b>Prasun Pahadi</b></h4> 
-    <p>Accountant</p> 
-  </div>
-</div>
-</div>
 
 </div>
 </div>
