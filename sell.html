@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>WMU Bookstore</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class ="header-section">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+        
+        <a class="navbar-brand" href="index.html"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Prasun1.html">Novels<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Prasun2.html">Biographies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Sell Your Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sale.php">Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Store Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+<section class="sell_main">
+  <h2>Sell Your Book</h2>
+  <p>Sell us your old books and get rewarded with points to buy some new ones.</p>
+  <div class="row">
+  <article id="art_form">
+    <form action="http://www.randyconnolly.com/tests/process.php" method="GET">
+      <input type="text" class="form-control" placeholder="Your Full Name" required>
+
+      <input type="email" class="form-control" placeholder="Email Address" required>
+
+      <input type="text" class="form-control" placeholder="Title of the Book" required>
+
+      <input type="text" class="form-control" placeholder="Author of the Book" required>
+
+      <label>Date of Publication</label>
+      <input type="date" class="form-control" placeholder="Title of the Book" required>
+
+      <label>Are the cover and binding intact?</label><br>
+      <input type="radio" class="radio_form" name="cover" value="Yes">Yes<br>
+      <input type="radio" class="radio_form" name="cover" value="No">No<br><br>
+
+      <label>Are there torn pages?</label><br>
+      <input type="radio" class="radio_form" name="torn" value="Yes">Yes<br>
+      <input type="radio" class="radio_form" name="torn" value="No">No<br><br>
+
+      <label>How much has the book been highlighted?</label><br>
+      <select>
+        <option>None</option>
+        <option>Very few</option>
+        <option>Noticeable</option>
+        <option>Excessively</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" class="btn btn-full" role="button" name="submit" style="padding:10px;">
+
+    </form>
+  </article>
+</div>
+
+</section>
+
+
+<footer>
+   <nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a href="sell.html">Back to top</a></li>
+  </ul>
+</nav>
+
+
+<div class="container">
+  <a href="index.html" class="site-logo">
+          <img src="img/book.jpg" alt="WMU Bookstore Logo">
+        </a>
+
+  <p>WMU Bookstore &copy; 2020</p>
+
+
+</div>
+</footer>
+
+
+</body>
+</html>

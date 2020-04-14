@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>WMU Bookstore</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="midterm.css">
+<link rel="stylesheet" type="text/css" href="midterm.css">
+</head>
+<body>
+<header>
+
+  <header class="header-section">
+    <div class="container">
+      <div class="row">
+
+        <a href="index.html" class="site-logo">
+          <img src="img/book.jpg" alt="WMU Bookstore Logo">
+        </a>
+
+        <div class="search_form">
+        <form class="header-search-form">
+            <input type="text" placeholder="Search on WMU Bookstore...."/>
+            <!-- <button><span class="glyphicon glyphicon-search"></span></button> -->
+          </form>
+        </div>
+
+        <div class="user-panel">
+          <span class="glyphicon glyphicon-user"></span>
+          <a href="#">Sign In or Create Account</a>
+        </div>
+
+        <div class="cart">
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+            <a href="#">Cart</a>
+        </div>
+
+        </div>
+    <nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a href="index.html">Our Store</a></li>
+    <li><a href="about.html">Our Collection</a></li>
+    <li><a href="about.html">Sell Your Book</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="hours.html">Store Hours</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+
+  </ul>
+</nav>
+  </div>
+</header>
+<h1>Store Location</h1>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(42.284625, -85.612326),
+  zoom:20,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsY7cDxuN6qZ6EKhLhSCkxaKXJDSLtySU&callback=myMap"></script>
+<p><strong>1903 W Michigan Ave, Kalamazoo, MI 49008</strong></p>
+<footer>
+  <p>WMU Bookstore &copy; 2020</p>
+</footer>
+</body>
+</html>
