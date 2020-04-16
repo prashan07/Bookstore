@@ -6,6 +6,13 @@
 *{
 	margin: 0px;
 	padding: 0px;
+
+}
+
+button{
+	border-radius: 7px;
+	background-color:#e7e7e760;
+	color: black;
 }
 
 html, body{
@@ -314,7 +321,7 @@ cite img{
 }
 
 #featured .box img{
-	width: 300px;
+	width: 500px;
 	height: 80%;
 	max-height: 100%;
 	max-width: 95%;
@@ -476,6 +483,7 @@ cite img{
 /*------------------------------------------*/
 .location{
 	margin: 0px 10%;
+	padding: 0 0 30px;
 }
 
 
