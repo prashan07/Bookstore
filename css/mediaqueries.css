@@ -1,0 +1,78 @@
+
+/*Big tablet to 1200px (width smaller than the 1140px row*/
+@media only screen and (max-width: 1200px){
+	.hero-box h1{
+		width: 100%;
+		padding: 0 2%;
+		color: red;
+	}
+
+	.row{
+		padding: 0 2%;
+	}
+	.review p{
+		padding-bottom: 5%;
+	}	
+	.youtube iframe{
+		width: 60%;
+		height: 100%;
+
+}
+
+}
+
+
+
+/*Small tablets to big tablet: from 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+	.hero-box h1{
+		color:red;
+	}
+	.review p{
+		padding-bottom: 5%;
+	}
+	.youtube iframe{
+		width: 60%;
+		height: 100%;
+
+	}
+
+}
+
+
+/*Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px){
+	.hero-box h1{
+		color:red;
+	}
+	.review p{
+		padding-bottom: 5%;
+	}
+	.youtube iframe{
+		width: 60%;
+		height: 100%;
+
+	}
+
+}
+
+
+
+/*Small phones: from 0 to 480 px*/
+@media only screen and (max-width: 480px){
+	.hero-box h1{
+		color:red;
+	}
+	.review p{
+		padding-bottom: 5%;
+	}
+	.youtube iframe{
+		width: 60%;
+		height: 100%;
+
+	}
+	.rentalp{
+		width: 100%;
+		float: left;
+	}
+}
