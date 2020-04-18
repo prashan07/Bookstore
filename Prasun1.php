@@ -84,7 +84,7 @@ include 'novelArray.php';
       echo '<h3> <strong>'.$images[$id]["title"].'</strong> </h3>';
       echo '<p><em>'.$images[$id]["author"].' </em></p>';
       echo '<p>'.$images[$id]["price"].'</p>';
-      echo '<p> <a href="Prasun3.php"><button>Proceed to checkout <i class="fa fa-shopping-cart"></i></button> </a> </p>';
+      echo '<p> <a href="Prasun3.php"><button onclick = "price('.$images[$id]["price"].')">Proceed to checkout <i class="fa fa-shopping-cart"></i></button> </a> </p>';
       echo '</a>';
       echo '</div>';
 
