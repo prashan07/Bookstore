@@ -77,12 +77,17 @@ include 'bioArray.php';
     foreach ($images as $id => $value) {
     
     echo '<div class = "box">';
+      echo '<a href="Prasun4.php?id='.$images[$id]["id"].'">';
       echo '<div class="hvrbox">';
-        echo '<img lass="hvrbox-layer_bottom" src = "img/'.$images[$id]["path"].'">';
+        
+        echo '<img class="hvrbox-layer_bottom" src = "img/'.$images[$id]["path"].'">';
         echo '<div class="hvrbox-layer_top">';
         echo '<div class="hvrbox-text">'.$images[$id]["desc"];
         echo '</div>';
+        
       echo '</div>';
+      echo '</a>';
+
     echo '</div>';
     echo '<h3> <strong>'.$images[$id]["title"].'</strong> </h3>';
     echo '<p><em>'.$images[$id]["author"].' </em></p>';
