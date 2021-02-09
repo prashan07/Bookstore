@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>WMU Bookstore</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="javascript/final.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class ="header-section">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+
+        <a class="navbar-brand" href="index.html"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Prasun1.html">Novels<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Prasun2.html">Biographies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Sell Your Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sale.php">Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Store Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <script async src="https://cse.google.com/cse.js?cx=015516095912375252762:bmk60e0xaly"></script>
+        <div class="gcse-search"></div>
+        </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+<section id="featured">
+  <div class="container">
+    <h1 class="edit">Biographies</h1>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio1.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">By the author of the acclaimed bestsellers Benjamin Franklin and Steve Jobs, this is the definitive biography of Albert Einstein.
+          How did his mind work? What made him a genius?
+          </div>
+        </div>
+      </div>
+      <h3><strong>Einstein: His Life and Universe</strong></h3>
+      <p ><em>Walter Isaacson</em></p>
+      <p>$50.00</p>
+      <p> <button onclick="price(50)">Add to Bag  <i class="fa fa-shopping-cart"></i></button>  </p>
+    </div>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio2.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.
+          </div>
+        </div>
+      </div>
+      <h3><strong>Steve Jobs</strong></h3>
+      <p><em>Walter Isaacson</em></p>
+      <p>$64.86</p>
+      <p> <button onclick="price(64.86)">Add to Bag  <i class="fa fa-shopping-cart"></i></button>  </p>
+    </div>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio3.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co. The book profiles his early life, coming of age, education and 27 years in prison.
+          </div>
+        </div>
+      </div>
+      <h3><strong>Long Walk to Freedom</strong></h3>
+      <p><em>Nelson Mandela</em></p>
+      <p>$80.70</p>
+      <p> <button onclick="price(80.70)">Add to Bag <i class="fa fa-shopping-cart"  id="cart"></i></button></p>
+    </div>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio4.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">It is impossible to understand the Second World War without understanding Winston Churchill, the bold British Prime Minister who showed himself to be one of the greatest statesmen any nation has ever known.
+          </div>
+        </div>
+      </div>
+      <h3><strong>Churchill: A Life</strong></h3>
+      <p><em>Martin Gilbert</em></p>
+      <p>$60.00</p>
+      <p> <button onclick="price(60)">Add to Bag   <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio5.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">The Mamba Mentality: How I Play is Kobe Bryant’s personal perspective of his life and career on the basketball court and his exceptional, insightful style of playing the game―a fitting legacy from the late Los Angeles Laker superstar.
+          </div>
+        </div>
+      </div>
+      <h3><strong>The Mamba Mentality</strong></h3>
+      <p><em>Kobe Bryant</em></p>
+      <p>$65.00</p>
+      <p> <button onclick="price(65)">Add to Bag   <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <div class="hvrbox">
+        <img class="hvrbox-layer_bottom" src="img/Bio6.jpg">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">A 2001 biography of the Founding Father and second U.S. President John Adams, written by the popular American historian David McCullough, which won the 2002 Pulitzer Prize for Biography.
+          </div>
+        </div>
+      </div>
+      <h3><strong>John Adams</strong></h3>
+      <p><em>David McCullough</em></p>
+      <p>$70.00</p>
+      <p> <button onclick="price(70)">Add to Bag   <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+   </section>
+
+
+
+<footer>
+   <nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a href="index.html">Back to top</a></li>
+  </ul>
+</nav>
+
+
+<div class="container">
+  <a href="index.html" class="site-logo">
+          <img src="img/book.jpg" alt="WMU Bookstore Logo">
+        </a>
+
+  <p>WMU Bookstore &copy; 2020</p>
+
+
+</div>
+</footer>
+
+
+</body>
+</html>

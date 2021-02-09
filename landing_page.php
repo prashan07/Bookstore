@@ -75,14 +75,14 @@ session_start();
 </header>
 
 	<section class= "homepage">
-		
+
 		<div class = "hero-box">
 		<h1>Welcome to WMU Bookstore! <br>
 		Your One Stop to All Education Materials</h1>
 		<a href="sale.php" class="btn btn-full">Latest Sales</a>
 		<a href="sell.html" class="btn btn-ghost">Sell Your Book</a>
 		</div>
-	
+
 	</section>
 
 	<section class = "features">
@@ -178,4 +178,3 @@ session_start();
 
 </body>
 </html>
-

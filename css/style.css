@@ -109,7 +109,7 @@ h3{
 	border: 1px solid #006666;
 }
 .btn-submit{
-	background-color: #87CEFA; 
+	background-color: #87CEFA;
 	border:1px solid #87CEFA;
 	color: black;
 }
@@ -295,7 +295,7 @@ cite img{
 }
 .rentalp h2{
 	animation-name: animOne;
- 	animation-duration: 1.5s; 
+ 	animation-duration: 1.5s;
  	animation-iteration-count: infinite;
  	animation-delay: 0.5s;
 }
@@ -567,7 +567,7 @@ cite img{
 /*Login*/
 /*------------------------------------------*/
 .userlogin{
-	margin-top: 8%; 
+	margin-top: 8%;
 	text-align: center;
 }
 
@@ -594,7 +594,7 @@ cite img{
 /*Registration*/
 /*------------------------------------------*/
 .userreg{
-	margin-top: 8%; 
+	margin-top: 8%;
 	text-align: center;
 }
 .userreg img{

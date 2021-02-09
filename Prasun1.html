@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>WMU Bookstore</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="javascript/final.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class ="header-section">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+
+        <a class="navbar-brand" href="index.html"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Prasun1.html">Novels<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Prasun2.html">Biographies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Sell Your Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sale.php">Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Store Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <script async src="https://cse.google.com/cse.js?cx=015516095912375252762:bmk60e0xaly"></script>
+        <div class="gcse-search"></div>
+        </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <i class="fas fa-shopping-bag" id="cart"></i> Bag
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+<section id="featured">
+  <div class="container">
+    <h1 class="edit">Novels</h1>
+    <div class="box">
+      <img src="img/Novel1.jpeg">
+      <h3> <strong>The Great Gatsby</strong></h3>
+      <p><em>F. Scott Fitzgerald</em></p>
+      <p>$60.00</p>
+      <p><button onclick="price(60)">Add to Bag <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel2.jpg">
+       <h3> <strong>Ulysses</strong></h3>
+      <p><em>F. Scott Fitzgerald</em></p>
+      <p>$70.87</p>
+      <p><button onclick="price(70.87)">Add to Bag <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel3.jfif">
+       <h3><strong>Lolita</strong></h3>
+      <p><em>Vladimir Nabokov</em></p>
+      <p>$65.50</p>
+      <p><button onclick="price(65.50)">Add to Bag <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel4.jpg">
+       <h3> <strong>Animal Farm</strong></h3>
+      <p><em>George Orwell</em></p>
+      <p>$50.00</p>
+      <p><button  onclick="price(50)">Add to Bag <i class="fa fa-shopping-cart"></i></button></p>
+    </div>
+    <div class="box">
+      <img src="img/Novel5.jpg">
+       <h3> <strong>To Kill a Mockingbird</strong></h3>
+      <p><em>Harper Lee</em></p>
+      <p>$80.70</p>
+      <p> <button onclick="price(80.70)">Add to Bag <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel6.jpg">
+       <h3> <strong>1984</strong></h3>
+      <p><em>George Orwell</em></p>
+      <p>$100.00</p>
+      <p> <button onclick="price(100)">Add to Bag <i class="fa fa-shopping-cart"></i></button> </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel7.jpg">
+       <h3> <strong>Gone with the Wind</strong></h3>
+      <p><em>Margaret Mitchell</em></p>
+      <p>$40.00</p>
+      <p> <button onclick="price(40)">Add to Bag <i class="fa fa-shopping-cart"></i></button>  </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel8.jpg">
+       <h3> <strong>A Clockwork Orange</strong></h3>
+      <p><em>Anthony Burgess</em></p>
+      <p>$95.00</p>
+      <p> <button onclick="price(95)">Add to Bag <i class="fa fa-shopping-cart"></i></button>  </p>
+    </div>
+    <div class="box">
+      <img src="img/Novel9.jpg">
+       <h3><strong>Watchmen</strong></h3>
+      <p><em>Alan Moore</em></p>
+      <p>$87.80</p>
+      <p> <button onclick="price(87.80)">Add to Bag <i class="fa fa-shopping-cart"></i></button>  </p>
+    </div>
+</section>
+
+
+
+
+<footer>
+   <nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a href="index.html">Back to top</a></li>
+  </ul>
+</nav>
+
+
+<div class="container">
+  <a href="index.html" class="site-logo">
+          <img src="img/book.jpg" alt="WMU Bookstore Logo">
+        </a>
+
+  <p>WMU Bookstore &copy; 2020</p>
+
+
+</div>
+</footer>
+
+
+</body>
+</html>

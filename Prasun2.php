@@ -75,7 +75,7 @@ include 'bioArray.php';
     <?php
 
     foreach ($images as $id => $value) {
-    
+
     echo '<div class = "box">';
       echo '<div class="hvrbox">';
         echo '<img lass="hvrbox-layer_bottom" src = "img/'.$images[$id]["path"].'">';
@@ -89,7 +89,7 @@ include 'bioArray.php';
     echo '<p>'.$images[$id]["price"].'</p>';
     echo '<p> <a href="Prasun3.php"><button>Proceed to checkout <i class="fa fa-shopping-cart"></i></button> </a> </p>';
       echo '</div>';
-      
+
 
 
 
@@ -98,7 +98,7 @@ include 'bioArray.php';
 
 
       ?>
-      
+
     </div>
    </section>
 

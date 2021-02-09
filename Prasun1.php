@@ -75,8 +75,8 @@ include 'novelArray.php';
     <?php
 
     foreach ($images as $id => $value) {
-      
-    
+
+
 
     echo '<div class = "box">';
       echo '<img src = "img/'.$images[$id]["path"].'">';
@@ -86,7 +86,7 @@ include 'novelArray.php';
       echo '<p> <a href="Prasun3.php"><button>Proceed to checkout <i class="fa fa-shopping-cart"></i></button> </a> </p>';
       echo '</div>';
 
-    }  
+    }
 
     ?>
 
