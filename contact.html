@@ -1,4 +1,5 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
 <title>WMU Bookstore</title>
@@ -8,84 +9,64 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="midterm.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
+  <header class ="header-section">
+        <nav class="navbar navbar-expand-lg navbar-custom">
 
+        <a class="navbar-brand" href="landing_page.php"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
 
-  <header class="header-section">
-    <div class="container">
-      <div class="row">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <a href="index.html" class="site-logo">
-          <img src="img/book.jpg" alt="WMU Bookstore Logo">
-        </a>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Prasun1.php">Novels<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Prasun2.php">Biographies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Sell Your Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sale.php">Sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Store Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <script async src="https://cse.google.com/cse.js?cx=015516095912375252762:bmk60e0xaly"></script>
+        <div class="gcse-search"></div>
+        </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-        <div class="search_form">
-        <form class="header-search-form">
-            <input type="text" placeholder="Search on WMU Bookstore...."/>
-            
-          </form>
-        </div>
-
-        <div class="user-panel">
-          <span class="glyphicon glyphicon-user"></span>
-          <a href="#">Sign In or Create Account</a>
-        </div>
-
-        <div class="cart">
-          <span class="glyphicon glyphicon-shopping-cart"></span>
-            <a href="Prasun3.html">Cart</a>
-        </div>
-
-        </div>
-
-    <nav class="navbar navbar-inverse">
-  <ul class="nav navbar-nav">
-    <li><a href="Prasun1.html">Novels</a></li>
-    <li><a href="Prasun2.html">Biographies</a></li>
-    <li><a href="sell.html">Sell Your Book</a></li>
-    <li><a href="sale.html">Sale</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="hours.html">Store Hours</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </div>
-  </ul>
-</nav>
-</div>
-</header>
-
-<section id="contact">
-	<div class="container">
-	<h4>
-  <table class="table table-striped table-dark">
-    <caption class="header"><strong>Contact Us!</strong></caption>
-  <tbody>
-    <tr scope="row">
-      <th scope="col">Email:</th>
-      <th scope="col"><a href="mailto:wmich@bkstr.com">wmich@bkstr.com</a></th>
-    </tr>
-    <tr scope="row">
-      <th scope="col">Visit us at:</th>
-      <th scope="col">1922 W. Michigan Avenue Bernhard Center Kalamazoo, MI US 49008-5407</th>
-    </tr>
-     <tr scope="row">
-      <th scope="col">Phone</th>
-      <th scope="col">(269) 387-3930</th>
-    </tr>
-     <tr scope="row">
-      <th scope="col">Fax</th>
-      <th scope="col">(269) 387-3996</th>
-    </tr>
-  </tbody>
-</table>
-</div>
-</section>
- </div>
-</header>
-<h1>Store Location</h1>
+<section class="location">
+<h2>Store Location</h1>
 <div id="googleMap" style="width:100%;height:400px;"></div>
 
+<div class="row">
 <script>
 function myMap() {
 var mapProp= {
@@ -97,6 +78,8 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsY7cDxuN6qZ6EKhLhSCkxaKXJDSLtySU&callback=myMap"></script>
+</div>
+</section>
 
 <footer>
    <nav class="navbar navbar-inverse">
@@ -107,7 +90,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
 
 <div class="container">
-  <a href="index.html" class="site-logo">
+  <a href="landing_page.php" class="site-logo">
           <img src="img/book.jpg" alt="WMU Bookstore Logo">
         </a>
 

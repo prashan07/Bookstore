@@ -15,14 +15,15 @@
   <link rel="stylesheet" type="text/css" href="css/all.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+  <link href="css/mediaqueries.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <header class ="header-section">
         <nav class="navbar navbar-expand-lg navbar-custom">
-        
-        <a class="navbar-brand" href="index.html"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
+
+        <a class="navbar-brand" href="landing_page.php"><img src="img/book.jpg" alt="WMU Bookstore Logo"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,10 +32,10 @@
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Prasun1.html">Novels<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Prasun1.php">Novels<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Prasun2.html">Biographies</a>
+            <a class="nav-link" href="Prasun2.php">Biographies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="sell.html">Sell Your Book</a>
@@ -53,9 +54,14 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        <script async src="https://cse.google.com/cse.js?cx=015516095912375252762:bmk60e0xaly"></script>
+        <div class="gcse-search"></div>
         </form>
+        <ul class="navbar-nav mr-auto bag">
+         <li class="nav-item">
+            <a class="nav-link" href="Prasun3.html"><i class="fas fa-shopping-bag"></i> Bag</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -63,7 +69,7 @@
 <section class="sale_main">
   <h2> Sales and Offers </h2>
   
-  <?php
+  <?php 
     foreach ($sale as $key => $value) {
 
       echo '<article class= "sale_offers">';
@@ -84,21 +90,22 @@
       echo '</div>';
       echo '</div>';
       echo '</article>';
+    }
 
-?>
+  ?>
 
 </section>
 
 <footer>
    <nav class="navbar navbar-inverse">
   <ul class="nav navbar-nav">
-    <li><a href="sale.html">Back to top</a></li>
+    <li><a href="sale.php">Back to top</a></li>
   </ul>
 </nav>
 
 
 <div class="container">
-  <a href="index.html" class="site-logo">
+  <a href="landing_page.php" class="site-logo">
           <img src="img/book.jpg" alt="WMU Bookstore Logo">
         </a>
 
